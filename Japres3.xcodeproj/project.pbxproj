@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5064F662A99C1AB00B58539 /* Japres3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5064F652A99C1AB00B58539 /* Japres3App.swift */; };
+		B5064F682A99C1AB00B58539 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5064F672A99C1AB00B58539 /* ContentView.swift */; };
+		B5064F6A2A99C1AE00B58539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5064F692A99C1AE00B58539 /* Assets.xcassets */; };
+		B5064F6D2A99C1AE00B58539 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5064F6C2A99C1AE00B58539 /* Preview Assets.xcassets */; };
+		DBDA181A2AA5D1A5007A2E1B /* highscores.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA18102AA5D1A5007A2E1B /* highscores.swift */; };
+		DBDA182E2AA5D319007A2E1B /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA18242AA5D208007A2E1B /* GamesView.swift */; };
+		DBDA18302AA5D319007A2E1B /* TopNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA18282AA5D208007A2E1B /* TopNavView.swift */; };
+		DBDA18312AA5D319007A2E1B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA182B2AA5D214007A2E1B /* CustomButton.swift */; };
+		DBDA18322AA5D319007A2E1B /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA18252AA5D208007A2E1B /* InformationView.swift */; };
+		DBDA18332AA5D319007A2E1B /* HighscoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA18292AA5D208007A2E1B /* HighscoresView.swift */; };
+		DBDA18352AA5D495007A2E1B /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA18342AA5D495007A2E1B /* MainMenuView.swift */; };
+		DBDA183B2AAABB7D007A2E1B /* DataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA183A2AAABB7D007A2E1B /* DataFile.swift */; };
+		DBDA183F2AAAC93A007A2E1B /* DataHiraganaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA183E2AAAC93A007A2E1B /* DataHiraganaView.swift */; };
+		DBDA18472AAB6562007A2E1B /* CharacterSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA18462AAB6561007A2E1B /* CharacterSelectionView.swift */; };
+		DBDA18492AAB664C007A2E1B /* GameChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA18482AAB664C007A2E1B /* GameChoiceView.swift */; };
+		DBDA184D2AAF3A2A007A2E1B /* hiraganas.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBDA184C2AAF3A2A007A2E1B /* hiraganas.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5064F622A99C1AB00B58539 /* Japres3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Japres3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5064F652A99C1AB00B58539 /* Japres3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japres3App.swift; sourceTree = "<group>"; };
+		B5064F672A99C1AB00B58539 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5064F692A99C1AE00B58539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5064F6C2A99C1AE00B58539 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBDA18102AA5D1A5007A2E1B /* highscores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = highscores.swift; path = ../../../Japres3_remote/Japres3/highscores.swift; sourceTree = "<group>"; };
+		DBDA18242AA5D208007A2E1B /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		DBDA18252AA5D208007A2E1B /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		DBDA18282AA5D208007A2E1B /* TopNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavView.swift; sourceTree = "<group>"; };
+		DBDA18292AA5D208007A2E1B /* HighscoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighscoresView.swift; sourceTree = "<group>"; };
+		DBDA182B2AA5D214007A2E1B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DBDA18342AA5D495007A2E1B /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		DBDA183A2AAABB7D007A2E1B /* DataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFile.swift; sourceTree = "<group>"; };
+		DBDA183E2AAAC93A007A2E1B /* DataHiraganaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHiraganaView.swift; sourceTree = "<group>"; };
+		DBDA18462AAB6561007A2E1B /* CharacterSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionView.swift; sourceTree = "<group>"; };
+		DBDA18482AAB664C007A2E1B /* GameChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameChoiceView.swift; sourceTree = "<group>"; };
+		DBDA184C2AAF3A2A007A2E1B /* hiraganas.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hiraganas.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5064F5F2A99C1AB00B58539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5064F592A99C1AB00B58539 = {
+			isa = PBXGroup;
+			children = (
+				B5064F642A99C1AB00B58539 /* Japres3 */,
+				B5064F632A99C1AB00B58539 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5064F632A99C1AB00B58539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5064F622A99C1AB00B58539 /* Japres3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5064F642A99C1AB00B58539 /* Japres3 */ = {
+			isa = PBXGroup;
+			children = (
+				B5064F652A99C1AB00B58539 /* Japres3App.swift */,
+				DBDA18342AA5D495007A2E1B /* MainMenuView.swift */,
+				DBDA18292AA5D208007A2E1B /* HighscoresView.swift */,
+				DBDA18252AA5D208007A2E1B /* InformationView.swift */,
+				DBDA18242AA5D208007A2E1B /* GamesView.swift */,
+				DBDA18462AAB6561007A2E1B /* CharacterSelectionView.swift */,
+				DBDA18482AAB664C007A2E1B /* GameChoiceView.swift */,
+				DBDA18282AA5D208007A2E1B /* TopNavView.swift */,
+				DBDA182B2AA5D214007A2E1B /* CustomButton.swift */,
+				DBDA18102AA5D1A5007A2E1B /* highscores.swift */,
+				B5064F672A99C1AB00B58539 /* ContentView.swift */,
+				DBDA183E2AAAC93A007A2E1B /* DataHiraganaView.swift */,
+				DBDA183A2AAABB7D007A2E1B /* DataFile.swift */,
+				DBDA184C2AAF3A2A007A2E1B /* hiraganas.csv */,
+				B5064F692A99C1AE00B58539 /* Assets.xcassets */,
+				B5064F6B2A99C1AE00B58539 /* Preview Content */,
+			);
+			path = Japres3;
+			sourceTree = "<group>";
+		};
+		B5064F6B2A99C1AE00B58539 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5064F6C2A99C1AE00B58539 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5064F612A99C1AB00B58539 /* Japres3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5064F702A99C1AE00B58539 /* Build configuration list for PBXNativeTarget "Japres3" */;
+			buildPhases = (
+				B5064F5E2A99C1AB00B58539 /* Sources */,
+				B5064F5F2A99C1AB00B58539 /* Frameworks */,
+				B5064F602A99C1AB00B58539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Japres3;
+			productName = Japres3;
+			productReference = B5064F622A99C1AB00B58539 /* Japres3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5064F5A2A99C1AB00B58539 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B5064F612A99C1AB00B58539 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B5064F5D2A99C1AB00B58539 /* Build configuration list for PBXProject "Japres3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5064F592A99C1AB00B58539;
+			productRefGroup = B5064F632A99C1AB00B58539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5064F612A99C1AB00B58539 /* Japres3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5064F602A99C1AB00B58539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5064F6D2A99C1AE00B58539 /* Preview Assets.xcassets in Resources */,
+				B5064F6A2A99C1AE00B58539 /* Assets.xcassets in Resources */,
+				DBDA184D2AAF3A2A007A2E1B /* hiraganas.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5064F5E2A99C1AB00B58539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDA18332AA5D319007A2E1B /* HighscoresView.swift in Sources */,
+				DBDA18322AA5D319007A2E1B /* InformationView.swift in Sources */,
+				DBDA18302AA5D319007A2E1B /* TopNavView.swift in Sources */,
+				DBDA183B2AAABB7D007A2E1B /* DataFile.swift in Sources */,
+				DBDA182E2AA5D319007A2E1B /* GamesView.swift in Sources */,
+				DBDA18352AA5D495007A2E1B /* MainMenuView.swift in Sources */,
+				DBDA18472AAB6562007A2E1B /* CharacterSelectionView.swift in Sources */,
+				DBDA183F2AAAC93A007A2E1B /* DataHiraganaView.swift in Sources */,
+				DBDA18312AA5D319007A2E1B /* CustomButton.swift in Sources */,
+				DBDA181A2AA5D1A5007A2E1B /* highscores.swift in Sources */,
+				DBDA18492AAB664C007A2E1B /* GameChoiceView.swift in Sources */,
+				B5064F682A99C1AB00B58539 /* ContentView.swift in Sources */,
+				B5064F662A99C1AB00B58539 /* Japres3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5064F6E2A99C1AE00B58539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5064F6F2A99C1AE00B58539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5064F712A99C1AE00B58539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Japres3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JGame.Japres3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5064F722A99C1AE00B58539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Japres3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JGame.Japres3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5064F5D2A99C1AB00B58539 /* Build configuration list for PBXProject "Japres3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5064F6E2A99C1AE00B58539 /* Debug */,
+				B5064F6F2A99C1AE00B58539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5064F702A99C1AE00B58539 /* Build configuration list for PBXNativeTarget "Japres3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5064F712A99C1AE00B58539 /* Debug */,
+				B5064F722A99C1AE00B58539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5064F5A2A99C1AB00B58539 /* Project object */;
+}
